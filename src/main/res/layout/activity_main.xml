@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#101010"
+    android:orientation="vertical"
+    android:padding="40dp"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="186dp"
+        app:srcCompat="@drawable/ojofuturo2" />
+
+    <TextView
+        android:id="@+id/lblTuNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tu Nombre:"
+        android:textColor="#FBF6F6"
+        android:textSize="100px" />
+
+    <EditText
+        android:id="@+id/txtNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#F6F0F0"
+        android:drawableTint="#F8F3F3"
+        android:ems="10"
+        android:foregroundTint="#F2EDED"
+        android:inputType="text"
+        android:textColor="#F0ECEC" />
+
+    <DatePicker
+        android:id="@+id/datePicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="60px"
+        android:background="#F6F4F4"
+        android:headerBackground="#673AB7" />
+
+    <Button
+        android:id="@+id/btnEnviar"
+        android:layout_width="146dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="60px"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center_horizontal"
+        android:text="Enviar"
+        android:textSize="50px" />
+
+</LinearLayout>
